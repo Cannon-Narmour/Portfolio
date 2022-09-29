@@ -457,14 +457,17 @@ form textarea {
 .thanksint {
   text-align: center;
   margin-top: 25px;
+  position: relative;
 }
 
 .appreciate {
   text-align: center;
+  position: relative;
 }
 
 .psite {
   text-align: center;
+  position: relative;
 }
 
 .btn1 {
