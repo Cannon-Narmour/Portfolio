@@ -36,7 +36,7 @@ header {
   justify-content: space-between;
   background: transparent;
   padding: 22px 16%;
-  border-bottom: 1px solid transparent;
+  border-bottom: 10px solid transparent;
   transition: all 0.4s ease;
 }
 
