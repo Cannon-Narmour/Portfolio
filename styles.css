@@ -348,6 +348,24 @@ header {
   font-size: var(--h2-font);
 }
 
+.quiksand {
+  text-decoration: none;
+  color: #333333;
+}
+
+.quiksand:hover {
+  color: #c45730;
+}
+
+.bccase {
+  text-decoration: none;
+  color: #333333;
+}
+
+.bccase:hover {
+  color: #c45730;
+}
+
 .contact-text p {
   color: var(--second-color);
   font-size: var(--p-font);
