@@ -18,6 +18,35 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-function myFunction() {
-    x.classList.toggle("bx bxs-heart");
-  }
+(function() {
+    const heart = document.getElementById('heart');
+    heart.addEventListener('click', function() {
+      heart.classList.toggle('orange');
+    });
+  })();
+
+(function() {
+const heart = document.getElementById('heart1');
+heart.addEventListener('click', function() {
+    heart.classList.toggle('orange');
+});
+})();
+
+(function() {
+const heart = document.getElementById('heart2');
+heart.addEventListener('click', function() {
+    heart.classList.toggle('orange');
+});
+})();
+
+(function() {
+const heart = document.getElementById('heart3');
+heart.addEventListener('click', function() {
+    heart.classList.toggle('orange');
+});
+})();
+    
+    
+
+
+// new func
