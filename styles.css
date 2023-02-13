@@ -802,6 +802,13 @@ form textarea {
   background: #c45730;
   border: 1px solid var(--main-color);
 }
+
+@media (min-width: 2000px) {
+  .project-content {
+    margin-left: 250px;
+  }
+}
+
 @media (max-width: 1325px) {
   header {
     padding: 16px 3%;
